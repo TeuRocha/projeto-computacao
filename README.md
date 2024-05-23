@@ -1,11 +1,17 @@
-# Sample Snack app
+# Projeto-Computação-Móvel
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+### Ideia Geral do App
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+O App vai ser um teste de daltonismo, mais especificamente o teste de ishihara (teste de senso cromático) é um teste para a detecção do daltonismo. Ele vai possuir um sistema de cadastro e login, e uma aba com informações importantes sobre o assunto, três imagens foram colocadas, cada uma com um propósito diferente para o teste.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+### Motivação
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+Minha motivação para a escolha do tema foi bem aleatória, eu estava pensando em fazer um teste com a visão do usuário em relação a cores, havia pensado em um teste com alguns blocos de cores próximas, e o usuário teria que alinhar os blocos da cor mais fraca para o mais forte, mas seria muito complicado fazer isso, então me lembrei do teste de daltonismo que eu vi em um vídeo do Manual do Mundo e a ideia já estava feita.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+### Objetivo
+
+Incentivar as pessoas que não sabem sobre seu problema de visão a buscar um especialista, pois a maioria das pessoas nem imaginam que possuem daltonismo, e isso pode causar problemas caso você não saiba que tem, por exemplo: se você vai mexer com alguma fiação, todos os cabos coloridos que não pode mexer no errado, sabendo que você é daltonico, este tipo de problema pode ser prevenido.
+
+### Funcionalidade
+
+Ele tem algumas telas, eu utilizei Tab e Stack Navigation, alguns botões para avançar nos testes e voltar, além dos botões de criar usuário e logar, possui um sistema Async para salvar local, tem um som irritante quando você se cadastra, e caso o usuário não tenha visto a tela de informações (que é importante) antes de iniciar o teste, o último teste muda para a tela de informações.
