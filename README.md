@@ -15,3 +15,5 @@ Incentivar as pessoas que não sabem sobre seu problema de visão a buscar um es
 ### Funcionalidade
 
 Ele tem algumas telas, eu utilizei Tab e Stack Navigation, alguns botões para avançar nos testes e voltar, além dos botões de criar usuário e logar, possui um sistema Async para salvar local, tem um som irritante quando você se cadastra, e caso o usuário não tenha visto a tela de informações (que é importante) antes de iniciar o teste, o último teste muda para a tela de informações.
+
+![Image](/.github/print1.png)
